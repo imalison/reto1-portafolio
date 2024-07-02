@@ -1,18 +1,18 @@
 :root {
-    --color-primary: #8E24AA; /* Morado */
-    --color-secondary: #333; /* Negro */
-    --color-background: #fff; /* Blanco */
+    --color-primary: #d37eeb; /* Morado */
+    --color-secondary: #4c2151; /* Negro */
+    --color-background: #ffffff; /* Blanco */
     --color-text: #333; /* Negro */
-    --color-accent: #8E24AA; /* Morado */
-    --color-link-hover: #6A1B9A; /* Tonos más oscuros para enlaces */
-    --color-section-background: #eee; /* Fondo de secciones */
-    --color-border: #ccc; /* Color del borde */
+    --color-accent: #df94f3; /* Morado */
+    --color-link-hover: #4c2151; /* Tonos más oscuros para enlaces */
+    --color-section-background: #f3d6f4; /* Fondo de secciones */
+    --color-border: #df94f3; /* Color del borde */
     --color-shadow: rgba(0, 0, 0, 0.1); /* Sombra */
 }
 
 body {
-    background-color: #f0f0f0;
-    font-family: Arial, sans-serif;
+    background-color: #f3d6f4;
+    font-family: "Poppins", sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -43,7 +43,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    text-decoration: underline;
+    color: #df94f3;
 }
 
 main {
